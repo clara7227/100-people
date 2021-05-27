@@ -3,7 +3,7 @@
     <div class="container">
 
         <h1 class="title">
-          scrollmagic
+          100 people
         </h1>
 
     </div>
