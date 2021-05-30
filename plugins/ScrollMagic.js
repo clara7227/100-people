@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import * as ScrollMagic from 'scrollmagic';
-// import gsap from "gsap";
+import gsap from "gsap";
 // import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 //import 'imports-loader?imports=scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators';
 import { ScrollMagicPluginIndicator} from "scrollmagic-plugins";
