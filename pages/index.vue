@@ -1,19 +1,5 @@
 <template>
-  <div>
-    <div class="container">
-      <h1 class="title">100 people</h1>
-      <div class="text-container">
-        <span class="text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
-          inventore dolores. Placeat voluptatum obcaecati repellat eaque iure
-          omnis sed beatae repudiandae incidunt qui quo, quos id repellendus
-          suscipit officiis illo.
-        </span>
-      </div>
-    </div>
-    <div class="container2">
-      <span id="animate1">hola</span>
-    </div>
+<div>
     <div class="container3">
       <div class="container3.1">
         <span id="animate2">que tal</span>
@@ -85,7 +71,9 @@ import { TweenMax, TimelineMax } from "gsap";
 import ScrollMagic from "scrollmagic";
 import gsap from "scrollmagic";
 import $ from 'jquery';
+import Section1 from '../components/Scene1.vue';
 export default {
+  components: { Section1 },
   mounted() {
 /*DRAWING SCG**/
     function pathPrepare($el) {
@@ -129,37 +117,29 @@ export default {
 
 
 
- /**  MOVING THINGS!! */
+ /**  MOVING CIRCLE */
     var scene2 = new ScrollMagic.Scene({
       triggerElement: ".container3",
       duration: 1000, // controlled by scroll pixels of vertical scroll
       //duration: window.outerWidth
     })
       .setTween(".circle", 1, {
-        right: window.innerWidth,
+        right: 300,
+        top: 200,
         backgroundColor: "red",
       }) // trigger a TweenMax.to tween
 
       .addIndicators() // add indicators (requires plugin)
       .addTo(controller);
-    var scene = new this.$scrollmagic.Scene({
-      triggerElement: ".container",
-      duration: 10000,
-      triggerHook: "onLeave",
-    })
-      // trigger a TweenMax.to tween
 
-      .setPin(".text")
-      .addTo(controller);
-
-    var scene = new this.$scrollmagic.Scene({ triggerElement: ".container2" })
-      // trigger a TweenMax.to tween
-      .setTween("#animate1", 0.5, {
-        backgroundColor: "white",
-        scale: 2.5,
-        rotate: 360,
-      })
-      .addTo(controller);
+    // var scene = new this.$scrollmagic.Scene({ triggerElement: ".container2" })
+    //   // trigger a TweenMax.to tween
+    //   .setTween("#animate1", 0.5, {
+    //     backgroundColor: "white",
+    //     scale: 2.5,
+    //     rotate: 360,
+    //   })
+    //   .addTo(controller);
 
     var scene2 = new this.$scrollmagic.Scene({
       triggerElement: ".container3",
@@ -173,7 +153,7 @@ export default {
       .addIndicators({ name: "1 (duration: 300)" })
       .setTween("#animate2", 0.5, { backgroundColor: "white" })
       .setTween(".container3", 1, { backgroundColor: "red" })
-      .setTween(".circle", 0.5, { backgroundColor: "green", scale: 60 }) // CIRCULO QUE SE AGRANDA
+      .setTween(".circle", 0.5, { backgroundColor: "red", scale: 60 }) // CIRCULO QUE SE AGRANDA
       .addTo(controller);
 
     // SEGUNDA PARTE DE SCROLLMAGIC
@@ -228,24 +208,6 @@ export default {
   z-index: 2;
 }
 
-//TEXT DERECHA
-.text-container {
-  margin-left: 60vh;
-  text-align: left;
-  background-color: white;
-  width: 600px;
-  z-index: 3;
-}
-
-.container2 {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: salmon;
-}
 
 .container3 {
   margin: 0 auto;
@@ -257,15 +219,6 @@ export default {
   background: aquamarine;
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 
 .subtitle {
   font-weight: 300;

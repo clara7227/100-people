@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Windsor";
+    src: local("Windsor"),
+     url('~/assets/fonts/WindsorDOT-Reg.otf') format("opentype");
+     font-weight: normal;
+    }
+
+@font-face {
+    font-family: "Windsor";
+    src: local("Windsor"),
+     url('~/assets/fonts/WindsorDOT-Bol.otf') format("opentype");
+     font-weight: bold;
+}
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham"),
+     url('~/assets/fonts/Gotham-Narrow-Book.otf') format("opentype");
+     font-weight: normal;
+}
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham"),
+     url('~/assets/fonts/Gotham-Narrow-Bold.otf') format("opentype");
+     font-weight: bold;
+}

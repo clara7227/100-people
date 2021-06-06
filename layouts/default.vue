@@ -1,6 +1,11 @@
 <template>
   <div>
-    <Nuxt />
+    <!-- <Primeraescenaprueba /> -->
+     <Scene1 />
+      <Scene2 />
+      <Scene3 />
+    <!-- <Nuxt /> -->
+     
   </div>
 </template>
 
