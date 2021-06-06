@@ -129,6 +129,7 @@ export default {
   max-width: 300px;
   border-radius: 100%;
   margin-right: 20px;
+  margin-top: 300px;
   // position: absolute;
 }
 .christian {

@@ -1,5 +1,11 @@
 <template>
   <div>
+    <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="/static/earth2.png"/>
+    <title>My Vue.js app</title>
+  
+</head>
     <!-- <Primeraescenaprueba /> -->
      <Scene1 />
       <Scene2 />
