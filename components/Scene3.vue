@@ -61,31 +61,31 @@ export default {
 
     tl3.to(".muslim", 1, { yPercent: 287 }, "-=0.5");
     tl3.to(".t-muslim", 1, { opacity: 1 }, 0);
-    tl3.to(".t-muslim", 1, { top: 320 });
+    tl3.to(".t-muslim", 1, { top: 295 });
     tl3.to(".t-muslim", 1, { top: 1000 }, "+=2");
     tl3.to(".t-muslim", 1, { opacity: 0 }, "-=1");
 
     tl3.to(".no-religion", 1, { yPercent: 413 }, "-=0.5");
     tl3.to(".t-no-religion", 1, { opacity: 1 }, 0);
-    tl3.to(".t-no-religion", 1, { top: 325 });
+    tl3.to(".t-no-religion", 1, { top: 300 });
     tl3.to(".t-no-religion", 1, { top: 1000 }, "+=2");
     tl3.to(".t-no-religion", 1, { opacity: 0 }, "-=1");
 
     tl3.to(".hindu", 1, { yPercent: 454 }, "-=0.5");
     tl3.to(".t-hindu", 1, { opacity: 1 }, 0);
-    tl3.to(".t-hindu", 1, { top: 355 });
+    tl3.to(".t-hindu", 1, { top: 320 });
     tl3.to(".t-hindu", 1, { top: 1000 }, "+=2");
     tl3.to(".t-hindu", 1, { opacity: 0 }, "-=1");
 
     tl3.to(".others", 1, { yPercent: 735 }, "-=0.5");
     tl3.to(".t-others", 1, { opacity: 1 }, 0);
-    tl3.to(".t-others", 1, { top: 350 });
+    tl3.to(".t-others", 1, { top: 270 });
     tl3.to(".t-others", 1, { top: 1000 }, "+=2");
     tl3.to(".t-others", 1, { opacity: 0 }, "-=1");
 
     tl3.to(".buddhism", 1, { yPercent: 868 }, "-=0.5");
     tl3.to(".t-buddhism", 1, { opacity: 1 }, 0);
-    tl3.to(".t-buddhism", 1, { top: 370 });
+    tl3.to(".t-buddhism", 1, { top: 335 });
     tl3.to(".t-buddhism", 1, { top: 1000 }, "+=2");
     tl3.to(".t-buddhism", 1, { opacity: 0 }, "-=1");
     //  tl.to(

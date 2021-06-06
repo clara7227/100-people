@@ -113,7 +113,7 @@ export default {
   grid-template-columns: 65% 1fr;
   background: $colorlightpink;
   width: 100%;
-  margin-top: -60px;
+     z-index: 5;
 }
 //IMG CONTINENTS
 .dots {
