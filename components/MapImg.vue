@@ -32,7 +32,7 @@ export default {
 padding:42px 0 0 18px;
   object-fit: cover;
   /* background-color: rgb(255, 255, 255); */
-  opacity: 100%;
+  opacity: 1;
   position: absolute;
 } 
 

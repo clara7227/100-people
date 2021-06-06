@@ -59,31 +59,31 @@ export default {
     tl3.to(".t-christian", 1, { top: 1000 }, "+=2");
     tl3.to(".t-christian", 1, { opacity: 0 }, "-=1");
 
-    tl3.to(".muslim", 1, { yPercent: 283 }, "-=0.5");
+    tl3.to(".muslim", 1, { yPercent: 287 }, "-=0.5");
     tl3.to(".t-muslim", 1, { opacity: 1 }, 0);
     tl3.to(".t-muslim", 1, { top: 320 });
     tl3.to(".t-muslim", 1, { top: 1000 }, "+=2");
     tl3.to(".t-muslim", 1, { opacity: 0 }, "-=1");
 
-    tl3.to(".no-religion", 1, { yPercent: 399 }, "-=0.5");
+    tl3.to(".no-religion", 1, { yPercent: 413 }, "-=0.5");
     tl3.to(".t-no-religion", 1, { opacity: 1 }, 0);
     tl3.to(".t-no-religion", 1, { top: 325 });
     tl3.to(".t-no-religion", 1, { top: 1000 }, "+=2");
     tl3.to(".t-no-religion", 1, { opacity: 0 }, "-=1");
 
-    tl3.to(".hindu", 1, { yPercent: 437 }, "-=0.5");
+    tl3.to(".hindu", 1, { yPercent: 454 }, "-=0.5");
     tl3.to(".t-hindu", 1, { opacity: 1 }, 0);
     tl3.to(".t-hindu", 1, { top: 355 });
     tl3.to(".t-hindu", 1, { top: 1000 }, "+=2");
     tl3.to(".t-hindu", 1, { opacity: 0 }, "-=1");
 
-    tl3.to(".others", 1, { yPercent: 685 }, "-=0.5");
+    tl3.to(".others", 1, { yPercent: 735 }, "-=0.5");
     tl3.to(".t-others", 1, { opacity: 1 }, 0);
     tl3.to(".t-others", 1, { top: 350 });
     tl3.to(".t-others", 1, { top: 1000 }, "+=2");
     tl3.to(".t-others", 1, { opacity: 0 }, "-=1");
 
-    tl3.to(".buddhism", 1, { yPercent: 800 }, "-=0.5");
+    tl3.to(".buddhism", 1, { yPercent: 868 }, "-=0.5");
     tl3.to(".t-buddhism", 1, { opacity: 1 }, 0);
     tl3.to(".t-buddhism", 1, { top: 370 });
     tl3.to(".t-buddhism", 1, { top: 1000 }, "+=2");
@@ -128,33 +128,33 @@ export default {
 .dots2 {
   max-width: 300px;
   border-radius: 100%;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-top: 300px;
   // position: absolute;
 }
 .christian {
-  height: 240px;
-  width: 240px;
+  height: 235px;
+  width: 235px;
 }
 .muslim {
-  height: 170px;
-  width: 170px;
+  height: 165px;
+  width: 165px;
 }
 .no-religion {
-  height: 120px;
-  width: 120px;
+  height: 115px;
+  width: 115px;
 }
 .hindu {
-  height: 110px;
-  width: 110px;
+  height: 105px;
+  width: 105px;
 }
 .others {
-  height: 70px;
-  width: 70px;
+  height: 65px;
+  width: 65px;
 }
 .buddhism {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 //TEXT
 .text-container3 {

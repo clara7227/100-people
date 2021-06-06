@@ -23,7 +23,7 @@ export default {
 }
 .img-village {
  width: 100%;
-  opacity: 100%;
+opacity: 1;
 }
 
 </style>

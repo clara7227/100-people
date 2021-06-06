@@ -162,12 +162,12 @@ export default {
 }
 .t-europe {
   position: absolute;
-  top: -90px;
+  top: -120px;
   opacity: 0;
 }
 .t-africa {
   position: absolute;
-  top: -90px;
+  top: -120px;
   opacity: 0;
 }
 .t-latam {
@@ -177,12 +177,12 @@ export default {
 }
 .t-nortam {
   position: absolute;
-  top: -90px;
+  top: -120px;
   opacity: 0;
 }
 .t-asia {
   position: absolute;
-  top: -90px;
+  top: -120px;
   opacity: 0;
 }
 .t-oceania {
