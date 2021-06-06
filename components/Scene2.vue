@@ -119,8 +119,8 @@ export default {
 .dots {
     width: 970px;
     position: absolute;
-    margin-top: -43px;
-    margin-left: 38px;
+    margin-top: -103px;
+    // margin-left: 38px;
 }
 .africa {
     opacity: 0;
@@ -155,39 +155,39 @@ export default {
   position: relative;
   z-index:2;
   font-size: 30px;
-  margin-right: 90px;
+ margin-right: 40px;
   text-transform: uppercase;
   color: $colorblue;
   font-weight: bold;
 }
 .t-europe {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-africa {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-latam {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-nortam {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-asia {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-oceania {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 // TRANSICIÓN A ESCENA 3 

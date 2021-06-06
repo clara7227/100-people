@@ -182,37 +182,37 @@ export default {
 // }
 .t-intro {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-christian {
   position: absolute;
-  top: -90px;
+  top: -150px;
   opacity: 0;
 }
 .t-muslim {
   position: absolute;
-  top: -90px;
+  top: -150px;
   opacity: 0;
 }
 .t-no-religion {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-hindu {
   position: absolute;
-  top: -90px;
+  top: -150px;
   opacity: 0;
 }
 .t-others {
   position: absolute;
-  top: -120px;
+  top: -150px;
   opacity: 0;
 }
 .t-buddhism {
   position: absolute;
-  top: -90px;
+  top: -150px;
   opacity: 0;
 }
 // TRANSICIÓN A ESCENA 3

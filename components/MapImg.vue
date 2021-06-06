@@ -23,7 +23,7 @@ export default {
 <style lang="scss">
 .img-map-container {
   z-index: 3;
-  margin-left: 36px;
+  // margin-left: 36px;
   position: relative;
 }
 .img-map {
@@ -34,6 +34,7 @@ padding:42px 0 0 18px;
   /* background-color: rgb(255, 255, 255); */
   opacity: 1;
   position: absolute;
+      margin-top: -60px;
 } 
 
 </style>

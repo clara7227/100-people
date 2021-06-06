@@ -89,7 +89,7 @@ export default {
       ".section-wipe",
       1,
       {
-        marginTop: -1200,
+        marginTop: -1100,
       },
       "+=1"
     );
